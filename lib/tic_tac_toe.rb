@@ -118,9 +118,8 @@ class TicTacToe
     # If yes, then #play again
     gets.strip.downcase == "y" || gets.strip.downcase == "yes" ? play : puts("Goodbye!")
   end
-
+game = TicTacToe.new
+game.play
 end
 
 
-game = TicTacToe.new
-game.play
