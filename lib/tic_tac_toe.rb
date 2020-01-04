@@ -67,9 +67,7 @@ class TicTacToe
     else
       turn
     end
-    input_to_index
-    valid_move? 
-    current_player
+    
   end
 
   
