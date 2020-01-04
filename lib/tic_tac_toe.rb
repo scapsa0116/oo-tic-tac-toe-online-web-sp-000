@@ -11,8 +11,11 @@ class TicTacToe
      [6,7,8]
      [1,4,8]
      [3,4,6]
+     [1,3,6]
+     [2,4,7]
+     [3,5,8]
      ]
-  
+  end
   
   def display_board
     puts "#{@board[0]}, #{@board[1]}, #{@board[2]}"
