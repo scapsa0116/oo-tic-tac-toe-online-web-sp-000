@@ -50,9 +50,12 @@ class TicTacToe
     @board.count {|token| token == "X" || token == "O"}
   end
   
-  def curent_player
+  
+  def current_player
     turn_count % 2 == 0 ? "X" : "O"
   end
+
+  
   
   def turn 
     puts "Player #{curent_player} place your token in any position from 1 to 9"
