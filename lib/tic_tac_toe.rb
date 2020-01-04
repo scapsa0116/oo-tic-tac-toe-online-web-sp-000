@@ -4,7 +4,7 @@ class TicTacToe
     @board = board || Aray.new(9, " ")
   end
    
-   
+def WIN_COMBINATIONS  
    WIN_COMBINATIONS = [
      [1,2,3]
      [3,4,5]
