@@ -57,17 +57,18 @@ class TicTacToe
 
   
   
-  def turn 
-    puts "Player #{curent_player} place your token in any position from 1 to 9"
-    input = chomp.strip
+  def turn
+    puts "Player #{current_player}, please enter the token in any place avalable from 1-9:"
+    input = gets.strip
     index = input_to_index(input)
     if valid_move?(index)
-      move(index, curent_player)
+      move(index, current_player)
       display_board
     else
-      turn 
-    end 
+      turn
+    end
   end
+
   
   def won?
     a = WIN_COMBINATIONS.find{
