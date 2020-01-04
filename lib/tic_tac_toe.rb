@@ -105,6 +105,10 @@ class TicTacToe
       nil
     end
   end
+  
+  
+  def play 
+    puts
 
     
     
